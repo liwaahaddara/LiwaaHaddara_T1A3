@@ -2,7 +2,7 @@
 containing both a title and author name'''
 
 
-class Book:
+class LibraryBook:
     def __init__(self, title, author):
         self.title = title
         self.author = author
