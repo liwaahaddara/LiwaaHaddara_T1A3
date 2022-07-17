@@ -19,3 +19,12 @@ class LibraryCatalogue():
     def add_book(self, title, author):
         new_book = LibraryBook(title, author)
         self.catalogue_items.append(new_book)
+
+    # deletes the book with the given title from the catalogue
+    def delete_book(self, title):
+        for book in self.catalogue_items:
+            if book.title.lower() == title.lower():
+                self.catalogue_items.remove(book)
+                return f"\n{title.title()} has been DELETED from the catalogue."
+
+        return f"\n{title.title()} is not in the catalogue."
