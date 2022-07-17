@@ -54,3 +54,12 @@ def rent_book(book_being_rented):
 
             return f"{book_being_rented.title()} has been rented."
     return f"{book_being_rented.title()} is not in the catalogue."
+
+
+def rent_a_book():
+    # Show the current list of books
+    for book in catalogue.catalogue_items:
+        print(book.title)
+    # Ask which book you want deleted from the catalogue
+    book_being_rented = input("\nWhich book would you like to rent? ")
+    print(rent_book(book_being_rented))
