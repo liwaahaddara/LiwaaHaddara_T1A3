@@ -1,4 +1,27 @@
 
-If this line prints, then the help file is working!
 
+OS Requirements:
+Not much to speak about here. As long as you're using a current day Windows or Mac computer, you should be good to go!
 
+Steps to install the terminal app:
+1. Have Python installed on your computer
+    * For macOS users, verify if this is the case by entering the following command into the
+    'terminal' app:
+    "python3 --version"
+
+    * For windows users, type the following into the command line to verify if Python has been installed on your system:
+    "python --version"
+
+    If you see a version of Python 3 or greater, you should be fine
+
+2. Have access to the terminal app project directory
+    * The folder is named "T1A3_LiwaaHaddara"
+
+    * Change the directory on your command line to this folder
+
+3. Running the terminal app:
+    * Enter the following into your command line to begin the program:
+    "./runLibraryApp.sh"
+
+    * If you want to access the help documentation, enter the following:
+    "./runLibraryApp.sh help"
