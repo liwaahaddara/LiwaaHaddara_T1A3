@@ -1,5 +1,15 @@
 # **LiwaaHaddara_T1A3. My Terminal Application (A Library Book Managment System)**
 
+## **Code Styling Conventions**
+
+- I have used the Pascal case naming convention for any classes created in my source code (e.g:  
+  `'Class LibraryBook():'`)
+- I've used the snake case naming convention for any functions created in my source code (e.g:  
+  `'def print_a_book():'`)
+- The camel case naming convention has been used to name all files in the project (e.g:  
+  ` libraryCatalogue.py`)
+- Using Python to implement my code, I have chosen to use the mainstream pep-8 styling convention and, making sure all the code has been indented correctly
+
 ## **Link to Github Repository:**
 
 [Github Repository](https://github.com/liwaahaddara/LiwaaHaddara_T1A3)
