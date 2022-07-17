@@ -22,3 +22,6 @@ TEST CASE NUMBER TWO:
 message: "Enjoy your day!"
 
 * Test Result: SUCCESSFUL
+
+These test cases are shown visually in the powerpoint slide deck that has been included
+as a pdf in the 'T1A3_LiwaaHaddara' folder

@@ -1,0 +1,48 @@
+
+This is a walkthrough of a demonstration of another feature in the Library program:
+
+* We'll be testing the addition of a book into the catalogue
+
+* After adding the book, we should be able to view it in the main catalogue
+
+* When inside the main/navigation menu, input the number "2" to begin the process of adding a book
+
+
+
+TEST CASE NUMBER ONE:
+* Done on Sunday 17th July, 2022 around 7:15PM
+
+* When adding a book, we'll enter an arbitrary book name, press enter, and then an arbitrary author name, and press enter
+
+* The program should state that the book has been added
+
+* Now back in the main menu, type "1" to view the new addition inside the catalogue
+
+* Test Result: SUCCESSFUL
+
+
+TEST CASE NUMBER TWO:
+* Done on Sunday 17th July, 2022 around 7:20PM
+
+* When adding a book, if a user doesn't provide BOTH a title and author name, the program should print a statement that asks the user to re-try the task, as the current entry will not be valid and thus not added to a catalogue
+
+* This can be tested in one of three ways:
+    1A. Enter "2" in main menu to begin adding a book
+    1B. Do not type anything when asked for a title name
+    1C. Type in an author name
+    1D. The error message will pop up
+
+    2A. Enter "2" in main menu to begin adding a book
+    2B. Enter in a title name
+    2C. Do not type in an author name
+    2D. The error message will pop up
+
+    3A. Enter "2" in main menu to begin adding a book
+    3B. Do not add a title name
+    3C. Do not add an author name
+    3D. Error message will pop up
+
+* Test Result: SUCCESSFUL
+
+These test cases are shown visually in the powerpoint slide deck that has been included
+as a pdf in the 'T1A3_LiwaaHaddara' folder
