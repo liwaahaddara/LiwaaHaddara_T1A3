@@ -6,3 +6,19 @@ This is a walkthrough of a demonstration of one of the features in the Library p
 
 * Immediately after running our bash script in the terminal, we'll be presented with
 a welcome screen and the program's options that are available to the user (a total of 6, each reprsented by an integer from 1 to 6)
+
+
+
+TEST CASE NUMBER ONE:
+* Done on Sunday 17th July, 2022 around 7:05PM
+* Entering the number "1" when in the main menu should print out the current catalogue of books, with each displaying the title and author names on the terminal.
+
+* Test Result: SUCCESSFUL
+
+
+TEST CASE NUMBER TWO:
+* Done on Sunday 17th July, 2022 around 7:10PM
+* Entering the number "6" inside the main menu should exit the program and display the following
+message: "Enjoy your day!"
+
+* Test Result: SUCCESSFUL
