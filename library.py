@@ -63,3 +63,10 @@ def rent_a_book():
     # Ask which book you want deleted from the catalogue
     book_being_rented = input("\nWhich book would you like to rent? ")
     print(rent_book(book_being_rented))
+
+
+def print_rented_books():
+    system("clear")
+    print("\n\nHere are the books you're currently renting:\n")
+    for book in rented_books:
+        book.show_book()
