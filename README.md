@@ -22,6 +22,16 @@ A description of how some of the features available in the program are implement
 - A group of **_if-elif-else_** statements are used to execute certain functions, depending on the number the user chooses to input
 - If a user enters anything other than an integer between 1 and 6, **_the program will handle the error_** by printing a statment that asks the user to re-attempt entering a valid value
 
+### **2. Adding a Book to the Catalogue**
+
+- When the user chooses the option of adding a book to the catalogue, the program will stop and ask them to re-try if they don't attempt to provide **_BOTH the title and author names_** for their book entry.
+- This is implemented by using an **_if statement that includes the 'and' keyword_**, ensuring that the user fulfils both conditions in order for the book entry to be successfully added to the catalogue.
+
+### **3. Finding the Initial Catalogue of Books**
+
+- If a user inputs "1" in the main menu, they'll be presented with the catalogue, containing the title and author name of each currently available for renting.
+- This is implemented through the help of the **_use of a variable (a global variable) declaration on line 5 of 'library.py'_** in order to access an instance of the LibraryCatalogue class so we can access each individual entry within the catalogue.
+
 ## **Link to Github Repository:**
 
 [Github Repository](https://github.com/liwaahaddara/LiwaaHaddara_T1A3)
