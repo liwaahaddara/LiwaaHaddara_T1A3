@@ -33,3 +33,14 @@ def add_new_book():
 
     else:
         print("You need to include BOTH a title AND author name, try again!")
+
+
+def delete_a_book():
+    # Show the current list of books
+    for book in catalogue.catalogue_items:
+        print(book.title)
+    # Ask which book you want deleted from the catalogue
+    name = input("\nWhich book would you like deleted? ")
+    response = catalogue.delete_book(name)
+
+    print(response)
