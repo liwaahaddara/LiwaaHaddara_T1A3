@@ -21,3 +21,15 @@ from the following menu:
     opt = input("Select your option (1-6): ")
 
     return opt
+
+
+def add_new_book():
+    book_title = input("What's the title of the new book? ").title()
+    book_author = input(f"\nWho is the author of {book_title}? ").title()
+
+    if (len(book_title) != 0) and (len(book_author) != 0):
+        catalogue.add_book(book_title, book_author)
+        print(f"\n{book_title} has been added to the catalogue....")
+
+    else:
+        print("You need to include BOTH a title AND author name, try again!")
