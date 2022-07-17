@@ -70,3 +70,30 @@ def print_rented_books():
     print("\n\nHere are the books you're currently renting:\n")
     for book in rented_books:
         book.show_book()
+
+
+option = ""
+
+while option != "6":
+    system("clear")
+    option = print_options()
+    system("clear")
+    if option == "1":
+        catalogue.print_catalogue()
+    elif option == "2":
+        add_new_book()
+    elif option == "3":
+        delete_a_book()
+    elif option == "4":
+        rent_a_book()
+    elif option == "5":
+        print_rented_books()
+    elif option == "6":
+        continue
+    else:
+        print("Invalid operation, please try again!")
+
+    input("\npress Enter to continue...")
+    system("clear")
+
+print("Enjoy your day!")
