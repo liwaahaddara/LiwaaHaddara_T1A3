@@ -44,3 +44,13 @@ def delete_a_book():
     response = catalogue.delete_book(name)
 
     print(response)
+
+
+def rent_book(book_being_rented):
+    for book in catalogue.catalogue_items:
+        if book.title.lower() == book_being_rented.lower():
+            rented_books.insert(len(rented_books),
+                                catalogue.catalogue_items.pop(catalogue.catalogue_items.index(book)))
+
+            return f"{book_being_rented.title()} has been rented."
+    return f"{book_being_rented.title()} is not in the catalogue."
