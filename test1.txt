@@ -1,0 +1,8 @@
+
+
+This is a walkthrough of a demonstration of one of the features in the Library program:
+
+* The feature we'll be testing will be navigation of the main menu
+
+* Immediately after running our bash script in the terminal, we'll be presented with
+a welcome screen and the program's options that are available to the user (a total of 6, each reprsented by an integer from 1 to 6)
